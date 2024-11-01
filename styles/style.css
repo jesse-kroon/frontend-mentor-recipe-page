@@ -1,0 +1,73 @@
+@import url(./fonts.css);
+body {
+    background-color: hsl(29, 53%, 90%);
+    font-family: 'Outfit';
+}
+
+main {
+    background-color: white;
+    padding: 2%;
+    margin: 5% auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+article {
+    background-color: hsl(322, 100%, 98%);
+    padding-inline: 15px;
+    padding-block: 15px 0;
+    margin-block: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+li {
+    margin-left: -15px;
+    line-height: 1.5;
+    margin-block: 5px;
+}
+
+li::marker {
+    color:hsl(332, 38%, 31%);
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+hr {
+    height: 1px;
+    background:grey;
+    font-size: 0;
+    color: rgba(173, 166, 166, 0.707);
+    border: 0;
+}
+
+table {
+    width: 100%;
+}
+
+.table-quantity {
+    color:hsl(332, 38%, 31%);
+    font-weight: bold;
+    margin-inline: 5px;
+    justify-self: flex-start;
+    flex: 1;
+}
+
+.table-nutrition {
+    margin-inline: 5px;
+    flex: 1;
+    margin-left: 30px;
+}
+
+table td {
+    border-bottom: 1px solid grey;
+    display: flex;
+    gap: 15px;
+}
